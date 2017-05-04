@@ -32,6 +32,8 @@ import conifer_functions as cf
 import operator
 from tables import *
 import numpy  as np
+import warnings
+warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) 
 
 def CF_analyze(args):
 	# do path/file checks:
